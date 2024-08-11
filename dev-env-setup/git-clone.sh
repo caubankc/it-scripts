@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $HOME
+
 git clone git@github.com:ubankconnect/command-center.git
 git clone git@github.com:ubankconnect/ui-console.git
 git clone git@github.com:ubankconnect/svc-cdn.git
