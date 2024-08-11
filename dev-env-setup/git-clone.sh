@@ -1,8 +1,11 @@
 #!/bin/bash
 
 cd $HOME
-
 git clone git@github.com:ubankconnect/command-center.git
+
+mkdir -p $HOME/repository
+cd $HOME/repository
+
 git clone git@github.com:ubankconnect/ui-console.git
 git clone git@github.com:ubankconnect/svc-cdn.git
 git clone git@github.com:ubankconnect/svc-demo-site.git
